@@ -6,7 +6,7 @@ export const routes: Routes = [
         loadComponent: () => import('./components/home-task/home-task.component'),
     },
     {
-        path: '',
+        path: '**',
         redirectTo: 'task',
         pathMatch: 'full'
     }
