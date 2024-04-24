@@ -14,11 +14,11 @@ export interface Pageable {
 }
 
 export interface Task {
-    id: number;
-    title: string;
-    description: string;
-    dueDate: null;
-    status: string;
+    id?: number;
+    title?: string;
+    description?: string;
+    dueDate?: null;
+    status?: string;
 }
 
 export interface PageableClass {
