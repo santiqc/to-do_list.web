@@ -31,5 +31,14 @@ export class AlertService {
     });
   }
 
+  public mensajeError(text: string): void {
+    Swal.fire({
+      title: "Error",
+      text: text,
+      icon: "error",
+      confirmButtonColor: "#d33",
+    });
+  }
+
 
 }
