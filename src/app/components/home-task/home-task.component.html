@@ -75,7 +75,7 @@
     <span class="navbar-brand mb-0 h1" style="text-align: center"
       >Tareas Creadas</span
     >
-    <table mat-table [dataSource]="dataSource" class="table table-striped">
+    <table mat-table [dataSource]="dataSource" class="table table-striped table-hover">
       <ng-container matColumnDef="title">
         <th mat-header-cell *matHeaderCellDef>Nombre</th>
         <td mat-cell *matCellDef="let element">{{ element.title }}</td>
